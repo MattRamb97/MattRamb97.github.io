@@ -125,8 +125,14 @@ transform:rotateY(0)
     width:340px; /*340*/
     height:230px; /*230*/
     overflow:hidden;
-    margin:80px auto 50px;
+    margin:100px auto 50px;
     border-radius: 10px;
+    }
+    
+    .demo figure img {
+    width:340px; /*340*/
+    height:230px; /*230*/
+    
     }
 }
 
