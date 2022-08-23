@@ -18,7 +18,7 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     left:0px;
     top:0px;
-    width: 80%; /* Full width */
+    width: 50%; /* Full width */
     z-index:300;
 }
 
