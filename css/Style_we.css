@@ -316,7 +316,7 @@ body {
 	position: relative;
 	margin: 1em 0 0 0;
 	padding: 1em;
-	background: rgb(245,245,245);
+	background: rgb(68,68,68);
 	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
 	-moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
 	box-shadow: 0 0 1px rgba(0,0,0,0.20);
