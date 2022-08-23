@@ -98,7 +98,7 @@ input[type=submit]:hover {
     .container {
     padding: 20px;
     width: 60%;
-    height:70%;
+    height:100%;
     margin:100px auto 80px;
     position: relative;
     }
