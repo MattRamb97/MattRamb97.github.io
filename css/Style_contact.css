@@ -92,6 +92,18 @@ input[type=submit]:hover {
     
 }
 
+/* ================ Timeline Media Queries ================ */
+
+@media screen and (max-width: 660px) {
+    .container {
+    padding: 20px;
+    width: 40%;
+    height:70%;
+    margin:100px auto 80px;
+    position: relative;
+    }
+}
+
 footer{
     color: #f2f2f2;
     position: relative;
