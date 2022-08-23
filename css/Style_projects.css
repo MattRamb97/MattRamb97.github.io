@@ -125,7 +125,7 @@ transform:rotateY(0)
     width:340px; /*340*/
     height:250px; /*230*/
     overflow:hidden;
-    margin:100px auto 50px;
+    margin:100px auto 30px;
     border-radius: 10px;
     }
     
@@ -139,7 +139,7 @@ transform:rotateY(0)
     }
     
     h1 {
-      font-size: 50%;
+      font-size: 30%;
     }
 }
 
