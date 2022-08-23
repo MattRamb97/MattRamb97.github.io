@@ -1,0 +1,97 @@
+/* HTML and body settings*/
+html { 
+    height:100%; 
+}
+
+body { 
+    position:absolute; 
+    top:0px; bottom:0px; right:0px; left:0px; 
+}
+
+
+/* The navigation bar */
+.navbar { 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background:transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    left:0px;
+    top:0px;
+    width: 100%; /* Full width */
+    z-index:300;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    font-weight: bold;
+}
+
+.Logo{
+    float: right;
+    position: relative;
+}
+
+.img_1{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Vertical Bar */
+.verticalline{  
+    height: 100%; /* Full width */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Image of me*/
+.me {
+    border-radius: 50%;
+    border: 5px solid #333;
+    width: 250px;
+}
+
+.name{
+    color: #f2f2f2;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.img_title{
+    color: #f2f2f2;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 5px 5px 5px #000;
+}
+
+footer{
+    color: #f2f2f2;
+    position: static;
+    text-align: center;
+}
+
+  
