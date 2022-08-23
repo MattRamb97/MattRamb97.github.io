@@ -134,6 +134,11 @@ transform:rotateY(0)
     height:230px; /*230*/
     
     }
+    
+    .demo figure figcaption {
+    width:70%;
+    height:70%;
+    }
 }
 
 
