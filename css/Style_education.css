@@ -352,7 +352,8 @@ body {
 
 
 footer{
-    color: white;
+    color: #f2f2f2;
     position: static;
     text-align: center;
+    bottom: 0px;
 }
