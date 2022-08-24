@@ -5,13 +5,7 @@
         <title>Personal page Matteo Rambaldi</title>
         <link rel="stylesheet" href="css/Style_contact.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-        <script>
-        window.onbeforeunload = () => {
-          for(const form of document.getElementsByTagName('form')) {
-            form.reset();
-          }
-        }
-        </script>
+        
     </head>
 
     <body style="background-image: url('data/Wallpaper.jpg');">
@@ -295,7 +289,7 @@
                     <option value="ZW">Zimbabwe</option>
                 </select>
 
-                <label for="message">Message1</label>
+                <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
                 <input type="submit" value="Submit">
@@ -303,6 +297,13 @@
               </form>
             </div>
             
+        <script>
+        window.onbeforeunload = () => {
+          for(const form of document.getElementsByTagName('form')) {
+            form.reset();
+          }
+        }
+        </script>
         
         
         
