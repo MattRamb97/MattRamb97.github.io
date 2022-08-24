@@ -289,16 +289,16 @@
                     <option value="ZW">Zimbabwe</option>
                 </select>
 
-                <label for="message">Message</label>
+                <label for="message">Message1</label>
                 <textarea id="message" name="message" placeholder="Write the message.." style="height:200px"></textarea>
 
-                <input type="submit" value="Submit" onclick="submitForm()">
+                <input type="submit" value="Submit">
 
               </form>
             </div>
             
         <script>
-        function submitForm() {
+        window.onload = function () {
             document.form.reset();
         }
         </script>
