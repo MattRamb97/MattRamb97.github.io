@@ -5,6 +5,13 @@
         <title>Personal page Matteo Rambaldi</title>
         <link rel="stylesheet" href="css/Style_contact.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        
+        window.onbeforeunload = () => {
+          for(const form of document.getElementsByTagName('form')) {
+            form.reset();
+          }
+        }
+        
     </head>
 
     <body style="background-image: url('data/Wallpaper.jpg');">
@@ -23,7 +30,7 @@
             </div>
             
             <div class="container">
-              <form action="https://formspree.io/f/mlevdbew" method="POST">
+              <form action="https://formspree.io/f/mlevdbew" method="POST" name="form">
 
                 <label for="subject">First Name</label>
                 <input type="text" id="subject" name="subject" placeholder="Your name..">
